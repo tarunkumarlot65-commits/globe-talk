@@ -1,0 +1,20 @@
+{
+  "name": "globetalk",
+  "version": "1.0.0",
+  "description": "Random text and video chat with strangers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "nsfwjs": "^4.3.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "jpeg-js": "^0.4.4",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.14.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.15"
+  }
+}
